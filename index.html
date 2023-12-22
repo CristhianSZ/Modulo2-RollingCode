@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="libros, venta de libros, libros en línea, literatura, novelas, bestsellers, libros usados, libros nuevos, tienda de libros, autores famosos, géneros literarios"
+    />
+    <meta
+      name="description"
+      content="Descubre una amplia selección de libros en nuestra tienda en línea. Encuentra libros de ficción, no ficción, bestsellers, autores famosos y más. Compra tus libros favoritos hoy mismo."
+    />
+    <meta
+      name="author"
+      content="Maria Celeste Quiroga H, Nadia Petrelli , Natalia Mangiafico, Cristhian Sosa"
+    />
+
+    <title>Book Store</title>
+    <!-- link CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <!-- link Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Seccion navbar -->
+    <nav
+      class="navbar navbar-light navbar-expand-lg fixed-top"
+      style="background-color: #e3f2fd"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./Paginas/error404.html"
+          ><img
+            src="./img/Logo.png"
+            alt="Soy un logo"
+            height="120"
+            class="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Paginas/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Paginas/acerca-de-nosotros.html"
+                >Acerca de nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Paginas/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Paginas/carrito.html">Carrito</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Mi cuenta
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./Paginas/login.html"
+                    >Iniciar sesión</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./administracion/index1.html"
+                    >Pagina Administrador</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="./Paginas/pagina-principal.html"
+                  >
+                    >Pagina Principal</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Busque su producto aqui"
+              aria-label="Search"
+            />
+            <a class="btn btn-outline-info" href="./Paginas/error404.html">
+              Buscar
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Seccion principal -->
+    <main>
+      <!-- Sección 1: Mensaje y imagen -->
+      <div class="container">
+        <div class="row">
+          <div class="Parrafo col-md-6">
+            <h2>Elegí tu proximo libro</h2>
+            <p>
+              Descubrir nuevos autores y obras que enriquecen la cultura y el
+              conocimiento Apoyar la industria editorial y a los creadores
+              literarios. Regalar libros a los amigos, familiares o a uno mismo,
+              como un gesto de afecto y generosidad. Apreciar el libro como un
+              objeto valioso, con su tacto, olor, diseño y marcas personales.
+              Visitar librerías y bibliotecas que son espacios de encuentro,
+              intercambio y descubrimiento.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="./img/img-pagina-principal/imagen1.jpeg"
+              class="img-fluid"
+              alt="Imagen 1"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Sección 2: Carruseles -->
+      <div class="container mb-5">
+        <h2>Productos recomendados</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Recomendados</h3>
+            <!-- Carrusel de productos recomendados -->
+            <div class="carrusel1">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    style="background-color: black"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    style="background-color: black"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    style="background-color: black"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./img/img-pagina-principal/imagen2.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/img-pagina-principal/Un conjuro de luz.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/img-pagina-principal/imagen4.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h3>Novelas</h3>
+            <!-- Carrusel de productos novelas -->
+            <div class="carrusel2">
+              <div id="carouselExampleIndicators2" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    style="background-color: black"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators2"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    style="background-color: black"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators2"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    style="background-color: black"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators2"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./img/img-pagina-principal/imagen9.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/img-pagina-principal/imagen10.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/img-pagina-principal/imagen19.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators2"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators2"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h3>Más vendidos</h3>
+            <!-- Carrusel de productos más vendidos -->
+            <div class="carrusel3">
+              <div id="carouselExampleIndicators3" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    style="background-color: black"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators3"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    style="background-color: black"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators3"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    style="background-color: black"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators3"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./img/img-pagina-principal/imagen16.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/img-pagina-principal/Maiser Dobbs.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/img-pagina-principal/Una venganza para mi enemigo.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators3"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators3"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sección 3: Categorías y grillas -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="list-group">
+              <h2>Categorías</h2>
+              <a
+                href="./Paginas/detalle-categoria-terror.html"
+                class="list-group-item list-group-item-action"
+                >Terror</a
+              >
+              <a
+                href="./Paginas/error404.html"
+                class="list-group-item list-group-item-action"
+                >Ciencia Ficción</a
+              >
+              <a
+                href="./Paginas/error404.html"
+                class="list-group-item list-group-item-action"
+                >Romantico</a
+              >
+              <a
+                href="./Paginas/error404.html"
+                class="list-group-item list-group-item-action"
+                >Drama</a
+              >
+              <a
+                href="./Paginas/error404.html"
+                class="list-group-item list-group-item-action"
+                >Policiales</a
+              >
+              <a
+                href="./Paginas/error404.html"
+                class="list-group-item list-group-item-action"
+                >Fantasia</a
+              >
+              <a
+                href="./Paginas/error404.html"
+                class="list-group-item list-group-item-action"
+                >Aventura</a
+              >
+              <a
+                href="./Paginas/error404.html"
+                class="list-group-item list-group-item-action"
+                >Detective & Mystery</a
+              >
+              <a
+                href="./Paginas/error404.html"
+                class="list-group-item list-group-item-action"
+                >Ficción histórica</a
+              >
+              <a
+                href="./Paginas/error404.html"
+                class="list-group-item list-group-item-action"
+                >Distópico</a
+              >
+              <!-- Agrega más categorías aquí -->
+            </div>
+          </div>
+          <div class="col-md-9">
+            <h2>Promociones</h2>
+            <!-- Grilla de promociones -->
+            <div class="row">
+              <div class="col-6 row">
+                <div class="col-6">
+                  <a href="./Paginas/error404.html">Amantes de buenos aires</a>
+                  <p>
+                    Autor: SANTOS, ALBERTO S. Generaciones de mujeres decididas
+                    a no vivir cien años en soledad. Raquel está a punto de
+                    casarse en Buenos Aires cuando recibe la inesperada visita
+                    de un abogado portugués; que cambiará su vida por completo.
+                    Juntos reconstruirán la historia de los orígenes de ella;
+                    marcada por un amor (...) Editorial: EL ATENEO I.S.B.N:
+                    9789500211598 Nro. de Paginas: 528 Idioma: ESPAÑOL Formato:
+                    LIBROS Encuadernacion: RÚSTICA Clasificación: Libros -
+                    Ficción y Literatura - Novelas - Fecha Publicación: 02/2021
+                  </p>
+                </div>
+                <div class="col-6">
+                  <img
+                    src="./img/img-pagina-principal/imagen12.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="col-6 row">
+                <div class="col-6">
+                  <a href="./Paginas/error404.html">El vuelo de la libélula</a>
+                  <p>
+                    Un secreto familiar llevará a Clara al fin del mundo; donde
+                    cree que se halla el principio de su historia. (...)
+                    Editorial: PLAZA & JANES I.S.B.N: 9789506446888 Nro. de
+                    Paginas: 336 Idioma: ESPAÑOL Formato: LIBROS Clasificación:
+                    Libros - Ficción y Literatura - Novelas - Romantica Fecha
+                    Publicación: 08/2023
+                  </p>
+                </div>
+                <div class="col-6">
+                  <img
+                    src="./img/img-pagina-principal/imagen13.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <h2>Lo más buscado</h2>
+            <!-- Grilla de productos más buscados -->
+            <div class="row">
+              <img
+                src="./img/img-pagina-principal/imagen16.jpg"
+                alt="libro"
+                class="col-2 img-fluid"
+              />
+              <img
+                src="./img/img-pagina-principal/imagen17.jpg"
+                alt="libro"
+                class="col-2 img-fluid"
+              />
+              <img
+                src="./img/img-pagina-principal/imagen18.jpg"
+                alt="libro"
+                class="col-2 img-fluid"
+              />
+              <img
+                src="./img/img-pagina-principal/imagen19.jpg"
+                alt="libro"
+                class="col-2 img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Seccion footer -->
+    <footer id="footer">
+      <!-- <div class="footer-grid">
+        <div class="logo">
+          <img src="./img/Logo.png" style="max-width: 20%" alt="SOY EL Logo" />
+          <p>BOOK STORE</p>
+        </div>
+        <div class="social">
+          <h5>Buscanos en Nuestras Redes Sociales</h5>
+          <p>
+            <img
+              src="./img/img-footer/facebook.jpg"
+              style="max-width: 3%"
+              alt="LOGO facebook"
+            />@book-store
+          </p>
+          <p>
+            <img
+              src="./img/img-footer/ig.png"
+              style="max-width: 3%"
+              alt="LOGO INSTAGRAM"
+            />book-store
+          </p>
+          <br />
+          <p>Copyright © 2023</p>
+        </div>
+        <div class="contact">
+          <h5>Contacto</h5>
+          <p>Av. Landajo 350 - Depto Cruz Alta</p>
+          <p>Provincia Tucumán</p>
+          <p>Tel.: 3814922047 - 3814138041</p>
+        </div>
+      </div> -->
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/footer.js"></script>
+  </body>
+</html>

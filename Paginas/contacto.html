@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="libros, venta de libros, libros en línea, literatura, novelas, bestsellers, libros usados, libros nuevos, tienda de libros, autores famosos, géneros literarios"
+    />
+    <meta
+      name="description"
+      content="Descubre una amplia selección de libros en nuestra tienda en línea. Encuentra libros de ficción, no ficción, bestsellers, autores famosos y más. Compra tus libros favoritos hoy mismo."
+    />
+    <meta
+      name="author"
+      content="Maria Celeste Quiroga H, Nadia Petrelli , Natalia Mangiafico, Cristhian Sosa"
+    />
+
+    <title>Book Store</title>
+    <!-- link CSS -->
+    <link rel="stylesheet" href="../css/contacto.css" />
+    <!-- link Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Seccion navbar -->
+    <nav
+      class="navbar navbar-light navbar-expand-lg fixed-top"
+      style="background-color: #e3f2fd"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"
+          ><img
+            src="../img/img-contacto/Logo.png"
+            alt="Soy un logo"
+            height="120"
+            class="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Inicio</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="./galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./acerca-de-nosotros.html"
+                >Acerca de nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./carrito.html">Carrito</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Mi cuenta
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./login.html"
+                    >Iniciar sesión</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../administracion/index1.html"
+                    >Pagina Administrador</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./error404.html"
+                    >Pagina Principal</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Busque su producto aqui"
+              aria-label="Search"
+            />
+            <a class="btn btn-outline-info" href="./error404.html">
+              Buscar
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Seccion principal -->
+    <main>
+      <div class="container-general">
+        <div class="container d-flex-column flex-wrap mt-3 align-items-center">
+            <div class="mapa col align-self-center ">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d271054.0112426608!2d-65.27444415704642!3d-26.796013319115012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94223792d6c56903%3A0xf88d5b92b5c56527!2sSan%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1696603439864!5m2!1ses-419!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="container-contacto d-lg-flex" >
+                <div class="container-datos col-lg-7 flex-wrap">
+                    <div class="col-9 mb-3 texto-contacto">
+                        <h2 class="text-h2 fw-bold">Contacto</h2>
+                        <p>Dejenos su mensaje o comentario y nos comunicaremos a la brevedad con usted</p>
+                    </div>
+                    <div class="form container flex-column justify-content-center borde-imgen-logo p-5 mb-3">
+                        <div class="col-10 mb-2">
+                            <label for="textnombre" class="form-label fw-bold">Nombre y Apellido</label>
+                            <input type="text" class="form-control shadow p-2 mb-2 bg-body-tertiary rounded" id="textnombre" placeholder="">
+                          </div>
+                        <div class="col-10 mb-2">
+                            <label for="textemail" class="form-label fw-bold">Email</label>
+                            <input type="email" class="form-control shadow p-2 mb-2 bg-body-tertiary rounded" id="textemail" placeholder="">
+                          </div>
+                          <div class="col-10 mb-2">
+                            <label for="texttelefono" class="form-label fw-bold">Telefono</label>
+                            <input type="email" class="form-control shadow p-2 mb-2 bg-body-tertiary rounded" id="texttelefono" placeholder="">
+                          </div>
+                          <div class="col-10 mb-2">
+                            <label for="textcomentario" class="form-label fw-bold">Duda, consulta o comentario</label>
+                            <textarea class="form-control shadow p-2 mb-2 bg-body-tertiary rounded" id="textcomentario" rows="3"></textarea>
+                          </div>
+                          <div class=" col-2"> 
+                            <a class="btn btn-primary btn-color fw-bold mt-3 mb-2 align-items-center w-100" href="../Paginas/error404.html">Enviar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" container cards-datos col-lg-3  pt-5">
+                    <div class=" card-contacto row-3 d-flex mt-3 p-3 shadow p-2 mt-5 bg-body-tertiary rounded overflow-hidden">
+                        <img  class="img-fluid col-1 m-2" src="../img/img-contacto/shop-solid.svg"></img>
+                        <p>Av. Landajo 350 - Depto Cruz Alta - Tucumán - Argentina</p>
+                    </div>
+                    <div class="card-contacto row-3  d-flex mt-3 p-3 shadow p-2  mt-5 mb-2 bg-body-tertiary rounded">
+                        <img  class="img-fluid col-1 m-2" src="../img/img-contacto/phone-solid.svg"></img>
+                        <p>Tel.: 3814922047 - 3814138041</p>
+                    </div>
+                    <div class=" card-contacto row-3 d-flex p-3 shadow p-2 mt-5 mb-2 bg-body-tertiary rounded">
+                        <img class="img-fluid col-1 m-2" src="../img/img-contacto/at-solid.svg"></img>
+                        <p>bookstore@gmail.com</p>
+                    </div>
+                </div>          
+           </div>
+        </div>
+    </div>
+    </main>
+    <!-- Seccion footer -->
+    <footer>
+      <div class="footer-grid">
+        <div class="logo">
+          <img src="../img/Logo.png" style="max-width: 20%" alt="SOY EL Logo" />
+          <p>BOOK STORE</p>
+        </div>
+        <div class="social">
+          <h5>Buscanos en Nuestras Redes Sociales</h5>
+          <p>
+            <img
+              src="../img/img-footer/facebook.jpg"
+              style="max-width: 3%"
+              alt="LOGO facebook"
+            />@book-store
+          </p>
+          <p>
+            <img
+              src="../img/img-footer/ig.png"
+              style="max-width: 3%"
+              alt="LOGO INSTAGRAM"
+            />book-store
+          </p>
+          <br />
+          <p>Copyright © 2023</p>
+        </div>
+        <div class="contact">
+          <h5>Contacto</h5>
+          <p>Av. Landajo 350 - Depto Cruz Alta</p>
+          <p>Provincia Tucumán</p>
+          <p>Tel.: 3814922047 - 3814138041</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

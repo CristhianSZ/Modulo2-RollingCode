@@ -1,0 +1,144 @@
+/* Seccion navbar */
+.logo {
+  border-radius: 20%;
+}
+main,
+footer {
+  position: relative;
+  top: 145px;
+}
+main {
+  margin-bottom: 20px;
+}
+form {
+  width: 300px;
+}
+
+.navbar-nav li:hover {
+  background-color: #0dcaf0;
+  border-radius: 10px;
+}
+
+/* Estilo para el texto de los elementos del navbar en hover */
+.navbar-nav li:hover a {
+  color: #030303;
+}
+/* Seccion main */
+.card-contacto {
+  border-bottom: 10px solid;
+  border-image: linear-gradient(to right, #407c87 70%, #a5dbdd 30%) 1;
+}
+.container-main-login {
+  background: #d3e1e2;
+}
+.form {
+  border: 2px solid #407c87;
+}
+.form-login {
+  max-width: 400px;
+}
+.container-botones .btn {
+  height: 50px;
+  font-size: 18px;
+}
+.container-botones .btn img {
+  width: 25px;
+  margin-right: 10px;
+}
+.img-ico-cont {
+  width: 15px;
+  height: auto;
+}
+.imagen-logo {
+  width: 200px;
+  height: auto;
+}
+.borde-imgen-logo {
+  border: 8px solid;
+  border-image: linear-gradient(to right, #407c87 70%, #a5dbdd 30%) 1;
+}
+.text-h2 {
+  color: #407c87;
+}
+.text-recupero {
+  color: #407c87;
+  justify-content: center;
+}
+.btn-primary {
+  background-color: #407c87 !important;
+  border: none !important;
+}
+.btn-primary:hover {
+  background-color: #235058 !important;
+}
+.btn-secondary {
+  background-color: #d3e1e2 !important;
+  border: 1px solid #407c87 !important;
+}
+.btn-secondary:hover {
+  cursor: pointer;
+  background-color: #407c87 !important;
+}
+.text-white {
+  text-decoration: none !important;
+  text-decoration-style: none;
+  color: white;
+}
+@media (max-width: 600px) {
+  .container-main-login {
+    margin: 10px;
+  }
+}
+
+/* Seccion footer */
+footer {
+  background-color: #427d8b;
+  padding: 20px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.logo,
+.social,
+.contact {
+  text-align: center;
+  color: white;
+  border-radius: 25%;
+  border: 3px;
+}
+
+.logo img {
+  max-width: 100%;
+  border-radius: 25%;
+}
+
+.social img,
+.contact img {
+  max-width: 3%;
+  border-radius: 25%;
+}
+
+/* Estilos para celular */
+@media screen and (max-width: 767px) {
+  .footer-grid {
+    grid-template-columns: 1fr; /* Mostrar una columna */
+  }
+}
+
+/* Estilos para tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr); /* Mostrar dos columnas */
+  }
+}
+
+/* Estilos para escritorio */
+@media screen and (min-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr); /* Mostrar tres columnas */
+  }
+}

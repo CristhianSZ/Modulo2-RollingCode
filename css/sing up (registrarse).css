@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.form-container {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: #fff;
+}
+/* seccion nabvar */
+/* Seccion navbar */
+.logo {
+  border-radius: 20%;
+}
+main,
+footer {
+  position: relative;
+  top: 70px;
+}
+main {
+  margin-bottom: 20px;
+}
+form {
+  width: 300px;
+}
+
+.navbar-nav li:hover {
+  background-color: #0dcaf0;
+  border-radius: 10px;
+}
+
+/* Estilo para el texto de los elementos del navbar en hover */
+.navbar-nav li:hover a {
+  color: #030303;
+}
+.navbar-collapse {
+  justify-content: space-between;
+}

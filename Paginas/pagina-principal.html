@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Book Store</title>
+    <!-- Bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- link de CSS -->
+    <link rel="stylesheet" href="../css/pagina-principal.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-light navbar-expand-lg fixed-top"
+      style="background-color: #e3f2fd"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"
+          ><img
+            src="../img/Logo.png"
+            alt="Soy un logo"
+            height="120"
+            class="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Inicio</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./acerca-de-nosotros.html"
+                >Acerca de nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./carrito.html">Carrito</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Mi cuenta
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./login.html"
+                    >Iniciar sesión</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./error404.html"
+                    >Pagina Administración
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./pagina-principal.html"
+                    >Pagina Principal</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              id="searchInput"
+              class="form-control me-2"
+              type="search"
+              placeholder="Busque aqui su proxima lectura "
+              aria-label="Search"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main -->
+    <main>
+      <div class="container mt-4">
+        <!-- Libros de la pagina -->
+        <div>
+          <h1 class="titulo">Libros disponibles</h1>
+          <ul id="productList" class="contenedor">
+            <li data-name="El diario de Mike" class="libro-galeria">
+              <a href="./detalle-producto-GALERIA copy.html">
+                <img
+                  src="../img/img-geleria/libro12.png"
+                  style="max-width: 48%"
+              /></a>
+              <p>El diario de Mike</p>
+            </li>
+            <li data-name="Fiesta de Halloween" class="libro-galeria">
+              <a href="./error404.html"
+                ><img src="../img/img-geleria/1.jpg" style="max-width: 50%"
+              /></a>
+              <p>Fiesta de Halloween</p>
+            </li>
+            <li data-name="Cuentos de 5 minutos" class="libro-galeria">
+              <a href="./error404.html"
+                ><img
+                  src="../img/img-geleria/libro14.jpg"
+                  style="max-width: 50%"
+              /></a>
+              <p>Cuentos de 5 minutos</p>
+            </li>
+            <li
+              data-name="La Biblioteca de los nuevos comienzos"
+              class="libro-galeria"
+            >
+              <a href="./error404.html"
+                ><img src="../img/img-geleria/2.jpg" style="max-width: 50%"
+              /></a>
+              <p>La Biblioteca de los nuevos comienzos</p>
+            </li>
+            <li data-name="El Viento conoce mi nombre" class="libro-galeria">
+              <a href="./error404.html"
+                ><img
+                  src="../img/img-geleria/libro10.jpg"
+                  style="max-width: 50%"
+              /></a>
+              <p>El Viento conoce mi nombre</p>
+            </li>
+            <li data-name="El Vuelo de la Libélula" class="libro-galeria">
+              <a href="./error404.html"
+                ><img src="../img/img-geleria/4.jpg" style="max-width: 50%"
+              /></a>
+              <p>El Vuelo de la Libélula</p>
+            </li>
+            <li
+              data-name="El sutil arte de que (casi todo) te importe una"
+              class="libro-galeria"
+            >
+              <a href="./error404.html"
+                ><img src="../img/img-geleria/5.jpg" style="max-width: 50%"
+              /></a>
+              <p>El sutil arte de que (casi todo) te importe una</p>
+            </li>
+            <li data-name="Una mujer con alas" class="libro-galeria">
+              <a href="./error404.html"
+                ><img src="../img/img-geleria/6.jpg" style="max-width: 50%"
+              /></a>
+              <p>Una mujer con alas</p>
+            </li>
+            <li data-name="Todo por volver a verte" class="libro-galeria">
+              <a href="./error404.html"
+                ><img src="../img/img-geleria/7.jpg" style="max-width: 50%"
+              /></a>
+              <p>Todo por volver a verte</p>
+            </li>
+            <li data-name="Holly" class="libro-galeria">
+              <a href="./error404.html"
+                ><img src="../img/img-geleria/8.jpg" style="max-width: 50%"
+              /></a>
+              <p>Holly</p>
+            </li>
+            <li
+              data-name="La Felicidad cabe en una Taza de Café"
+              class="libro-galeria"
+            >
+              <a href="./error404.html"
+                ><img src="../img/img-geleria/9.jpg" style="max-width: 50%"
+              /></a>
+              <p>La Felicidad cabe en una Taza de Café</p>
+            </li>
+            <li data-name="Encuentra tu Persona Vitamina" class="libro-galeria">
+              <a href="./error404.html"
+                ><img src="../img/img-geleria/10.jpg" style="max-width: 50%"
+              /></a>
+              <p>Encuentra tu Persona Vitamina</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/search.js"></script>
+  </body>
+</html>

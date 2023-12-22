@@ -1,0 +1,63 @@
+/* Seccion navbar */
+.logo {
+  border-radius: 20%;
+}
+main,
+footer {
+  position: relative;
+  top: 145px;
+}
+
+/* Seccion input de cantidad de productos */
+
+.boton-comentario-enviar {
+  margin-top: 20px;
+}
+/* Seccion footer */
+footer {
+  background-color: #427d8b;
+  padding: 20px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.logo,
+.social,
+.contact {
+  text-align: center;
+  color: white;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.social img,
+.contact img {
+  max-width: 3%;
+}
+
+/* Estilos para celular */
+@media screen and (max-width: 767px) {
+  .footer-grid {
+    grid-template-columns: 1fr; /* Mostrar una columna */
+  }
+}
+
+/* Estilos para tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr); /* Mostrar dos columnas */
+  }
+}
+
+/* Estilos para escritorio */
+@media screen and (min-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr); /* Mostrar tres columnas */
+  }
+}

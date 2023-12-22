@@ -1,0 +1,204 @@
+/* Seccion navbar */
+.logo {
+  border-radius: 20%;
+}
+main,
+footer {
+  position: relative;
+  top: 145px;
+}
+main {
+  margin-bottom: 20px;
+}
+form {
+  width: 300px;
+}
+input {
+}
+.navbar-nav li:hover {
+  background-color: #0dcaf0;
+  border-radius: 10px;
+}
+
+/* Estilo para el texto de los elementos del navbar en hover */
+.navbar-nav li:hover a {
+  color: #030303;
+}
+/* Seccion main */
+/* Imagen-principal */
+.Publicidad {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-gap: 1em;
+}
+.imagen-principal {
+  grid-column: span 3;
+  grid-column-start: 8;
+  width: 450px;
+}
+.Parrafo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.h1 {
+  text-decoration: none;
+  color: black;
+}
+.p {
+  color: black;
+}
+.titulo-segunda-seccion {
+  margin-left: 90px;
+}
+
+.contenedor-carrusel {
+  display: grid;
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+  gap: 1em;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+.contenedor-carrusel img {
+  height: 500px;
+}
+
+.carrusel1 {
+  grid-column: span 3;
+}
+.carrusel2 {
+  grid-column: span 3;
+}
+.carrusel3 {
+  grid-column: span 3;
+}
+.control-carrusel-next {
+  background-color: blue;
+}
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+/* seccion final */
+.contenedor-final {
+  display: flex;
+  flex-direction: column;
+}
+
+.categoria {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+.directo {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin-left: 20px;
+  margin-right: 140px;
+  margin-top: 40px;
+}
+.directo img {
+  height: 400px;
+}
+.contenedor-promociones {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 1em;
+}
+
+.img {
+  max-width: 100%;
+}
+.links {
+  text-decoration: none;
+  color: black;
+}
+.link {
+  color: black;
+}
+.lo-mas {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  margin-bottom: 20px;
+}
+.buscado {
+  grid-column: span 3;
+  width: 100%;
+}
+/*media query*/
+@media only screen and (max-width: 480px) {
+  .h1 {
+    background-color: aquamarine;
+  }
+}
+
+@media only screen and (min-width: 600) {
+  .h1 {
+    font-size: small;
+    background-color: rgb(4, 68, 47);
+  }
+}
+
+/* Seccion footer */
+footer {
+  background-color: #427d8b;
+  padding: 20px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.logo,
+.social,
+.contact {
+  text-align: center;
+  color: white;
+  border-radius: 25%;
+  border: 3px;
+}
+
+.logo img {
+  max-width: 100%;
+  border-radius: 25%;
+}
+
+.social img,
+.contact img {
+  max-width: 3%;
+  border-radius: 25%;
+}
+
+/* Estilos para celular */
+@media screen and (max-width: 767px) {
+  .footer-grid {
+    grid-template-columns: 1fr; /* Mostrar una columna */
+  }
+}
+
+/* Estilos para tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr); /* Mostrar dos columnas */
+  }
+}
+
+/* Estilos para escritorio */
+@media screen and (min-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr); /* Mostrar tres columnas */
+  }
+}
